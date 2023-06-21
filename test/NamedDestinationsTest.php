@@ -33,11 +33,7 @@ class NamedDestinationsTest extends \PHPUnit\Framework\TestCase
      */
     private $_originaltimezone;
 
-<<<<<<< HEAD
-    public function setUp(): void
-=======
     protected function setUp(): void
->>>>>>> 9e53f72 (updated tests for php >= 7.3 (till 8.0))
     {
         $this->_originaltimezone = date_default_timezone_get();
         date_default_timezone_set('GMT');
