@@ -64,6 +64,8 @@ abstract class AbstractFont extends Resource\AbstractResource
      */
     protected $_isMonospace = false;
 
+    protected $_isMonospaced = false;
+
     /**
      * The position below the text baseline of the underline (in glyph units).
      * @var integer

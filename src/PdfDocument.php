@@ -146,6 +146,8 @@ class PdfDocument
      */
     protected $_parser;
 
+    protected $_pdfHeaderVersion = '';
+
 
     /**
      * List of inheritable attributesfor pages tree

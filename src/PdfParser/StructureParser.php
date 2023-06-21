@@ -46,6 +46,8 @@ class StructureParser
      */
     private $_pdfVersion;
 
+    private $_refTable = [];
+
 
     /**
      * Get length of source PDF
