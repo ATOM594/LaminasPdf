@@ -74,11 +74,12 @@ class IndirectObjectReference extends AbstractTypeObject
      * @param \LaminasPdf\ObjectFactory $factory
      * @throws \LaminasPdf\Exception\ExceptionInterface
      */
-    public function __construct($objNum,
-                                $genNum,
-                                IndirectObjectReference\Context $context,
-                                Pdf\ObjectFactory $factory)
-    {
+    public function __construct(
+        $objNum,
+        $genNum,
+        IndirectObjectReference\Context $context,
+        Pdf\ObjectFactory $factory
+    ) {
         if (!(is_integer($objNum) && $objNum > 0)) {
             throw new Exception\RuntimeException('Object number must be positive integer');
         }
